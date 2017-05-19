@@ -32,9 +32,29 @@ Código Hexadecimal gris footer: #3B3B3B
 
 /* Newsletter */
 .newsletter {
+  color: white;
   text-align: center;
   padding: 50px;
 }
+
+.newsletter h2{
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+.newsletter p{
+  padding: 10px;
+}
+
+#name, #email, #address{
+
+    border-radius: 0.5em 0.5em; 
+    font-size: 14px;  
+    width: 420px;
+    padding: 10px;
+   
+/* ver como cambiar color letra dentro de campos */
+  }
 
 .newsletter button {
   color: white;
@@ -46,6 +66,7 @@ Código Hexadecimal gris footer: #3B3B3B
   font-weight: bolder;
   cursor: pointer;
 }
+
 
 /* Sección about */
 
