@@ -20253,18 +20253,35 @@ if (jQuery) {
   };
 })(jQuery);
 
-var name = document.getElementById('name').value;
-var email = document.getElementById('email').value;
-var address = document.getElementById('address').value;
+/* CAROUSEL */
+$('.carousel.carousel-slider').carousel({fullWidth: true, padding:200},setTimeout(autoplay, 4500));
+function autoplay() {
+$('.carousel').carousel('next');
+setTimeout(autoplay, 3500);
+ }
 
-document.getElementById('suscribirse').addEventListener('click', function(){
-  if(name == null || name == nombre.length == 0 || name == ""){
-      alert("Debe ingresar su nombre");
-  }else if(email == null || email == email.length == 0 || email == ""){
-      alert("Debe ingresar email");
-  }else if(address) == null || address == address.length == 0 || address == ""){
-      alert("Debe ingresar una direccion");
-  }else{
-    alert("Muchas gracias por suscribirse");
-  }
+/* SECCION 4: FOTOS */
+/* Fade in (falta implementar)*/
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
 });
