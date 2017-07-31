@@ -192,3 +192,44 @@ nav.solid #logo .logo{
   background-color: #8EC641;
 }
 
+/*SECCION 2: VIDEO */
+#video{
+  height: auto;
+  padding: 0;
+/*height: 120%;
+  width: 100%;
+*/
+  z-index: -100;
+  position: relative;
+  top: 0;
+}
+
+/*SECCION 3: NUESTRA PASION */
+
+#nuestra-pasion {
+  background: url('../img/fondo-about.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+.text-tea{
+  color: ##FD8384;
+}
+
+.contenido {
+  color: white;
+  width: 40%;
+  margin: 0 auto;
+  padding: 30px 30px 100px 30px;
+}
+
+.contenido h1 {
+  font-weight: bolder;
+  font-size: 5rem;
+  line-height: 5rem;
+  text-transform: uppercase;
+}
+
+
+
