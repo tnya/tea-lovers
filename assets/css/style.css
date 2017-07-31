@@ -231,5 +231,52 @@ nav.solid #logo .logo{
   text-transform: uppercase;
 }
 
+/*SECCION 4: FOTOS */
+
+/* Por falta de tiempo no alcance a implementar efectos
+pero los tengo! */
+
+/* https://codepen.io/kanishkkunal/pen/emdxLm 
+Zoom on Image when Hover with CSS */
+/*https://jsfiddle.net/tcloninger/e5qaD/
+Fade in para textos */
+/*https://www.sitepoint.com/scroll-based-animations-jquery-css3/#scroll-animation-examples
+Animacion fotos (slides)*/
+.photo {
+  display: inline-block;
+}
+/*SECCION 5: PREGUNTAS SOBRE EL TE */
+#preguntas {
+  background: url('../img/disfruta.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+/* SECCION 6: LAS PREGUNTAS */
+/* SECCION 7: LOS CAMPOS */
+
+#campos{
+  background: url('../img/parallax-4.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+/*SECCION 9: AMAMOS EL TE */
+
+.sec-8{
+  
+}
+
+/* FOOTER */
+footer {
+  background-color: #3B3B3B;
+  padding: 20px 30px;
+  color: ##C2C9E0;
+}
+
+
+
 
 
