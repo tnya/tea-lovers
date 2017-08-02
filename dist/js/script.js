@@ -20253,15 +20253,26 @@ if (jQuery) {
   };
 })(jQuery);
 
+/* NAVBAR */
+/*(function($) {
+  $(function() {
+    $('.toggle-overlay').click(function() {
+      $('aside').toggleClass('open');
+    });
+  });
+})(jQuery);
+*/
+
+
 /* CAROUSEL */
-$('.carousel.carousel-slider').carousel({full_width: true, indicators: true, padding: 500},setTimeout(autoplay, 4500));
+$('.carousel.carousel-slider').carousel({full_width: true, indicators: true, padding: 200},setTimeout(autoplay, 4500));
 function autoplay() {
 $('.carousel').carousel('next');
 setTimeout(autoplay, 3500);
  }
 
 /* SECCION 4: FOTOS */
-/* Fade in (falta implementar)*/
+/* Fade in (falta implementar y entenderlo)*/
 $(document).ready(function() {
     
     /* Every time the window is scrolled ... */
@@ -20285,3 +20296,4 @@ $(document).ready(function() {
     });
     
 });
+
