@@ -20254,7 +20254,7 @@ if (jQuery) {
 })(jQuery);
 
 /* CAROUSEL */
-$('.carousel.carousel-slider').carousel({fullWidth: true, padding:200},setTimeout(autoplay, 4500));
+$('.carousel.carousel-slider').carousel({full_width: true, indicators: true, padding: 500},setTimeout(autoplay, 4500));
 function autoplay() {
 $('.carousel').carousel('next');
 setTimeout(autoplay, 3500);
