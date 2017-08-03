@@ -83,14 +83,10 @@ color verde: #8fc44b;
 /* tipos de te */
 
 section#tipos-te {
-    padding-left: 150px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding: 50px 0;
+
 }
 
-.col.l2.tea-type {
-    padding: 0 10px;
-}
 
 /*SECCION 4: FOTOS */
 
@@ -103,15 +99,49 @@ Zoom on Image when Hover with CSS */
 Fade in para textos */
 /*https://www.sitepoint.com/scroll-based-animations-jquery-css3/#scroll-animation-examples
 Animacion fotos (slides)*/
-.photo {
-  display: inline-block;
+#nuestra-pasion{
+	margin-top: -6px;
+
+}
+.tea1{
+	background: url('../img/min-video-1-2.jpg');
+	background-size: cover;
+	background-position: center;
+    padding: 215px 215px 360px;
+    margin-left: -12px;
+}
+.tea2{
+	background: url('../img/min-video-3.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 100px 40px 148px 43px;
+    /* margin: 20px; */
+    margin-left: -34px;
+}
+.tea3{
+	background: url('../img/min-video-5.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 86px;
+    padding-bottom: 114px;
+    margin-left: -22px;
+    margin-right: -22px;
+}
+.tea4{
+	background: url('../img/min-video-6.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 143px 210px 119px 206px;
+	margin: -20px -11px -20px -22px;
 }
 /*SECCION 5: PREGUNTAS SOBRE EL TE */
+
 #preguntas {
-  background: url('../img/disfruta.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 50px 0;
+	background: url('../img/disfruta.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+	margin-top: -21px;
 }
 
 /* SECCION 6: LAS PREGUNTAS */
